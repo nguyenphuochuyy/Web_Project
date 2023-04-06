@@ -293,3 +293,40 @@ table {
     border-radius: 50%;
     background: #25ae88;
 }
+
+/* .milestones-section */
+
+.milestones-section{
+    background: #556080;
+    padding: 125px 0;
+}
+.container_milestones{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container_milestones .row {
+    display: flex;
+    justify-content: space-around;
+}
+.item .icon{
+    float: left;
+    height: 100px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+.milestones_text{
+    padding-top: 15px;
+    padding-left: 130px;
+    color: white;
+}
+.milestones_text h2{
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 1.1;
+}
+/* banner */
