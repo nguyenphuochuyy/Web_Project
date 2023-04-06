@@ -330,3 +330,38 @@ table {
     line-height: 1.1;
 }
 /* banner */
+.banner_card{
+    background: #FFF;
+    max-width: 770px;
+    padding: 53px 95px 28px;
+    position: relative;
+    top: -365px;
+    left: 100px;
+    
+}
+.banner_card h2{
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.banner_card h6{
+    font-weight: 600;
+    color: #556080;
+    margin-bottom: 39px;
+}
+.banner_card a{
+    display: inline-block;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    min-width: 80px;
+    padding: 14px 25px;
+    border-radius: 0px;
+    background: #25ae88;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+
+}
