@@ -25,6 +25,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+    font-family: 'Poppins', sans-serif
 }
 ol, ul {
 	list-style: none;
@@ -43,8 +44,8 @@ table {
 }
 .container{
     width: 100%;
-    /* padding-right: 15px;
-    padding-left: 15px; */
+    padding-right: 15px;
+    padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -333,9 +334,9 @@ table {
 .banner_card{
     background: #FFF;
     max-width: 770px;
-    padding: 53px 95px 28px;
+    padding: 53px 40px 28px;
     position: relative;
-    top: -365px;
+    top: -330px;
     left: 100px;
     
 }
@@ -364,4 +365,73 @@ table {
     text-align: center;
     text-decoration: none;
 
+}
+.banner .bg {
+    width: 100%;
+}
+.banner .bg img {
+    width: inherit;
+}
+/* Footer */
+.footer{
+    
+    background: #1f2430;
+    padding-top: 127px;
+    padding-bottom: 50px;
+}
+.footer_container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row{
+    display: flex;
+}
+.row .item{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.row .item .footer_sub_item
+{
+    margin-bottom: 35px;
+}
+.item .footer_sub_item img{
+    margin-bottom: 60px;
+}
+.item .footer_sub_item p{
+    color: #fff;
+    opacity: .55;
+    margin-bottom: 16px;
+}
+.footer_sub_item .social_link{
+    padding-top: 50px;
+}
+.footer_sub_item .social_link a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    margin-right: 30px;
+}
+.footer_sub_item .ft_title{
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 55px;
+    padding-top: 20px;
+}
+.footer_sub_item h5{
+    font-size: 18px;
+}
+.footer_sub_item ul li a{
+    font-size: 14px;
+    color: #fff;
+    opacity: 0.55;
+    text-decoration: none;
+}
+.footer_sub_item ul li {
+    margin-bottom: 10px;
 }
