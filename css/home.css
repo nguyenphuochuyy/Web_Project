@@ -435,3 +435,12 @@ table {
 .footer_sub_item ul li {
     margin-bottom: 10px;
 }
+/* About Us */
+.title_about_us{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    color: white;
+    top: -130px;
+}
