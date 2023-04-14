@@ -186,7 +186,7 @@ table {
    align-items: center;
    position: absolute;
    top: 0;
-   left: 600px;
+   left: 40%;
    color: white;
    padding-top: 100px;
   
@@ -205,8 +205,8 @@ table {
     border: 3px solid #25ae88;
     border-radius: 50%;
     position: absolute;
-    top: 260px;
-    left: 570px;
+    top:30%;
+    left: 40%;
 }
 .services .bg .img_main_cirlce{
     margin-top: 70px;
