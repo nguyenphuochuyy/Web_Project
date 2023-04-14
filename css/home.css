@@ -42,6 +42,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
 .container{
     width: 100%;
     padding-right: 15px;
@@ -64,10 +67,12 @@ table {
     
 }
 .home{
-    margin-left: 200px;
+    margin-left: 300px;
     display: inline-block;
 }
-
+.home .active{
+    background-color: #556080;
+}
 .home li{
     display: inline-block;
 }
@@ -434,13 +439,4 @@ table {
 }
 .footer_sub_item ul li {
     margin-bottom: 10px;
-}
-/* About Us */
-.title_about_us{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    position: relative;
-    color: white;
-    top: -130px;
 }
