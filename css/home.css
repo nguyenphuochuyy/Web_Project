@@ -385,7 +385,7 @@ html{
     padding-bottom: 50px;
 }
 .footer_container{
-    width: 100%;
+    
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -393,6 +393,8 @@ html{
 }
 .row{
     display: flex;
+    margin-right: 110px;
+    margin-left: 110px;
 }
 .row .item{
     position: relative;

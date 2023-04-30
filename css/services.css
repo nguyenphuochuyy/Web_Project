@@ -130,9 +130,7 @@ html{
     padding-top: 110px;
     padding-bottom: 110px;
 }
-/* .container_services{
-    width: 1175px;
-} */
+
 .about_title{
     margin-bottom: 87px;
     text-align: center;
@@ -173,6 +171,15 @@ html{
     position: relative;
     top:20%
 }
+.icon{
+    width: 80px;
+    height: 80px;
+    background: #25ae88;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+}
+
 /* Pricing_section */
 .pricing_section{
     padding-top: 110px;
@@ -304,7 +311,7 @@ html{
     padding-bottom: 50px;
 }
 .footer_container{
-    width: 100%;
+    
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -312,6 +319,8 @@ html{
 }
 .row{
     display: flex;
+    margin-right: 110px;
+    margin-left: 110px;
 }
 .row .item{
     position: relative;
