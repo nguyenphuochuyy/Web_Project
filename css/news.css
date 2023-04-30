@@ -210,7 +210,11 @@ html{
     margin-top: 110px;
 }
 .footer_container{
+<<<<<<< HEAD
     
+=======
+    width: 100%;
+>>>>>>> 3a337812329c8cf4658796db6b2807fa9de5a5d7
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -218,8 +222,11 @@ html{
 }
 .row{
     display: flex;
+<<<<<<< HEAD
     margin-right: 110px;
     margin-left: 110px;
+=======
+>>>>>>> 3a337812329c8cf4658796db6b2807fa9de5a5d7
 }
 .row .item{
     position: relative;
